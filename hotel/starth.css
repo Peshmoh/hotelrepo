@@ -1,0 +1,47 @@
+body{
+    display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin-bottom: 15px;
+    margin-left: 15px;
+   background-color: #DBF9FC;
+   background-image: url(bg2.jpeg);
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-position: center;
+   
+   
+ }
+ h1 { font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; color: green;}
+ 
+           
+         table {
+             text-align: left;
+     
+             
+         }
+ .content{
+   border:1px solid green margin-left: 15px;
+   background-color: ;}
+ .content1{
+   border:1px solid green;
+   width: 400px;
+   border-width: .3em; 
+   background-color: #DBF9FC;
+   
+  
+ }
+ input[type='number']{
+     width: 30px;
+  
+  
+ }
+ .content3{
+   border:1px dashed green;
+   width: 850px;
+   border-width: .2em; 
+   background-color: #DBF9FC;
+  
+ }
+ 
+ 

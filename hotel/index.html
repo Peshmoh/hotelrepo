@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WESTPOINT PLAZA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="hotel.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+       
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span> <img src="compalog__1_-removebg-preview.png" alt="" height="150" width="150"></span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn"><h2>MENU<i class = "fas fa-bars"></i> </h2></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>COZY AND INVITING PLACE TO STAY.</h2>
+                <p> <STrong>A place where comfort and warmth come together, creating a welcoming haven for relaxation and rejuvenation. This is the ideal spot to unwind and bask in tranquility, providing a delightful experience that promises to recharge your spirits.</STrong></p>
+                <a href="hotellogin.html" class="head-btn">GET STARTED</a>
+
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "#header">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+            </ul>
+            <a href="signup.html" class="btn sign-up">Sign Up</a>
+            <a href="hotellogin.html" class="btn log-in">Log In</a>
+
+        </div>
+        <!-- end of side navbar -->
+
+        
+        <div id = "Modal"></div>
+       
+        <!-- body content  -->
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h1>services</h1>
+            </div>
+            <div class = "services-container">
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service/ Food Runner</h2>
+                        <p>As a food service or food runner, you're responsible for ensuring orders are accurately prepared, plated attractively, and delivered promptly to customers. Your role involves clear communication with kitchen staff, timely order delivery, and maintaining a clean workspace. By providing efficient and friendly service, you contribute to a positive dining experience for customers.</p>
+                        <a href="foodservice.html" >
+                            <button type="button" class="btn">Know More</button>
+                          </a>
+                          
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-swimming-pool"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Refreshment</h2>
+                        <p> Whether it's a selection of freshly brewed teas, invigorating juices, or infused water with vibrant flavors, refreshments cater to diverse preferences. In social gatherings or corporate settings, they create moments of rejuvenation, fostering connections and allowing participants to recharge. This thoughtful gesture showcases hospitality and attention to detail, making every occasion more enjoyable and memorable for everyone involved.</p>
+                        <a href="#">
+                            <button type="button" class="btn">Know More</button>
+                          </a>
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-broom"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Housekeeping</h2>
+                        <p>Welcome to our housekeeping services! Whether you're in need of a tidy-up or a thorough cleaning, we've got you covered. Our team is dedicated to ensuring your space is spotless and comfortable. With a focus on attention to detail, we take care of your living area so you can relax and enjoy your surroundings. Contact us today to schedule your next housekeeping appointment!</p>
+
+
+
+                    </p>
+                    <a href="housekeeping.html">
+                        <button type="button" class="btn">Know More</button>
+                      </a>
+                      
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Room Security</h2>
+                        <p>Ensuring Your Peace of Mind</p>
+                         <p>At our establishment, we take room security seriously. We understand the importance of your safety and peace of mind. Our state-of-the-art security measures are designed to provide the highest level of protection for you and your belongings. With a focus on advanced technology and vigilant staff, we strive to exceed your expectations. Your security is our priority.</p>
+                         <a href="#">
+                            <button type="button" class="btn">Know More</button>
+                          </a>
+                    </div>
+                </article>
+                <!-- end of single service -->
+            </div>
+        </section>
+
+        <div class = "book" id="book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <a href="signup.html" class="btn-link">
+                        <button type="button" class="bk">Book Now</button>
+                      </a>
+                      
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h1>ROOMS</h1>
+            </div>
+            <div class = "rooms-container">
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "bg.jpeg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+                        <ul>
+                            <li>
+                                <i class="fas fa-arrow-alt-circle-right"></i>
+                                Experiene comfort like never before.
+                            </li>
+                            <li>
+                                <i class="fas fa-arrow-alt-circle-right"></i>
+                                Immerse yourself in luxury.
+                            </li>
+                            <li>
+                                <i class="fas fa-arrow-alt-circle-right"></i>
+                                Indulge in refined elegance.
+                            </li>
+                        </ul>
+                        <p>Welcome to our luxurious accommodations, where your comfort is our priority. Discover the art of relaxation in rooms designed to exceed your expectations. Our attention to detail ensures an experience that is truly extraordinary. Unwind in style, surrounded by opulence and sophistication.</p>
+                        <p>Immerse yourself in a world of refined tastes. Our accommodations offer the perfect blend of comfort and aesthetics. Every detail has been carefully curated to provide an ambiance of unparalleled luxury. Treat yourself to an experience that redefines relaxation and hospitality.</p>
+                        <p class = "rate">
+                            <span>ksh.10,500/</span> Per Night
+                        </p>
+                        <a href="#book">
+                            <button type="button" class="btn">Book Now</button>
+                          </a>
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "R2.jpeg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+               <ul>    
+                    <li>
+                    <i class="fas fa-arrow-alt-circle-right"></i>
+                     Experience lavish comfort in every detail.
+                     </li>
+             <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                    Enjoy exquisite amenities and features.
+            </li>
+                <li>
+             <i class="fas fa-arrow-alt-circle-right"></i>
+            Revel in the epitome of relaxation.
+                </li>
+                </ul>
+            <p>Indulge in the lap of luxury with our meticulously designed luxury rooms. Each room is a testament to opulence, providing a sanctuary of supreme comfort and elegance. From carefully selected furnishings to the latest in-room amenities, we've thought of everything to make your stay unforgettable.</p>
+            <p>Discover an oasis of tranquility that caters to your every need. Whether you're here for leisure or business, our luxury rooms offer an unparalleled experience that is both inviting and rejuvenating. Embrace the ultimate blend of sophistication and modern convenience, and let us elevate your stay to new heights of excellence.</p>
+
+                        <p class = "rate">
+                            <span>ksh.10,000/</span> Per Night
+                        </p>
+                        <a href="#book">
+                            <button type="button" class="btn">Book Now</button>
+                          </a>
+                          
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- single room -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "R3.jpeg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Luxury Rooms</h3>
+<ul>
+    <li>
+        <i class="fas fa-arrow-alt-circle-right"></i>
+        Spacious and Elegant Room Designs
+    </li>
+    <li>
+        <i class="fas fa-arrow-alt-circle-right"></i>
+        High-End Amenities for Your Comfort
+    </li>
+    <li>
+        <i class="fas fa-arrow-alt-circle-right"></i>
+        Breathtaking Views from Every Window
+    </li>
+        </ul>
+        <p>Indulge in the ultimate luxury experience with our meticulously designed rooms. Each room is a testament to elegance and comfort, ensuring that your stay is nothing short of exceptional. Whether you're here for leisure or business, our luxury rooms are tailored to meet your every need.</p>
+        <p>Immerse yourself in opulence as you enjoy the finest amenities we have to offer. From plush bedding to state-of-the-art entertainment systems, every detail has been carefully curated to provide you with an unforgettable stay.</p>
+
+                        <p class = "rate">
+                            <span>ksh.9,000 /</span> Per Night
+                        </p>
+                        <a href="#book">
+                            <button type="button" class="btn">Book Now</button>
+                          </a>
+                    </div>
+                </article>
+                <!-- end of single room -->
+            </div>
+        </section>
+
+
+        <section class = "customers" >
+            <div class = "sec-width">
+                <div class = "title">
+                    <h1>customers</h1>
+                </div>
+                <div class = "customers-container" id="customers">
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>
+                            Upon entering the hotel room, I was instantly captivated by its charm. The well-designed interior exuded a sense of comfort and elegance, with tasteful decor and soothing colors. The room's spacious layout provided a welcoming atmosphere.</p>
+                        <img src = "custpesh.png" alt = "customer image">
+                        <span>PESH, KENYA</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>As I entered the hotel room, I was immediately impressed. The ambiance was cozy, the decor was tasteful, and the view from the window was fantastic. The attention to detail was evident, from the comfortable bed to the thoughtful amenities provided. I truly loved the room from the moment I arrived.</p>
+                        <img src = "custJesse.jpg" alt = "customer image">
+                        <span>JESSE,USA</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Nice Place</h3>
+                        <P>Arriving at the beautiful location, I was instantly struck by its breathtaking charm. The serene ambiance and captivating views created a sense of wonder. Every aspect, from the meticulous details to the peaceful atmosphere, made it a place I quickly grew fond of.</P>
+                            <img src="CUST3.jpg" alt="customer image">
+                        <span>TIMSCOTT,CANADA</span>
+                    </div>
+                    <!-- end of single customer -->
+                </div>
+            </div>
+        </section>
+        <!-- end of body content -->
+        
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>About Us </h2>
+                    <p>We are dedicated to creating a warm and welcoming environment that caters to your comfort. </p>
+                    <ul class = "social-icons">
+                        <a href="https://twitter.com">
+                            <li class="flex">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </li>
+                        </a>
+                        
+                       <a href="https://facebook.com"> <li class = "flex">
+                            <i class = "fa fa-facebook fa-2x"></i>
+                       </a>
+                        </li>
+                        <a href="https://instagram.com"><li class = "flex">
+                            <i class = "fa fa-instagram fa-2x"></i>
+                        </li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Useful Links</h2>
+                    <a href = "#">Blog</a>
+                    <a href = #rooms>Rooms</a>
+                    <a href = "subscribe.html">Subscription</a>
+                    <a href = "#">Gift Card</a>
+                </div>
+
+                <div>
+                    <h2>Privacy</h2>
+                    <a href = "#">Career</a>
+                    <a href = "about.html">About Us</a>
+                    <a href = "contactus.html">Contact Us</a>
+                    <a href = "#service">Services</a>
+                </div>
+
+                <div>
+                    <h2>Have A Question</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            WESTPOINT BUILDING, Nairobi,KENYA.
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +254796714901
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            perismumbi96@gmail.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+        
+        <script src="hotel.js"></script>
+    </body>
+</html>

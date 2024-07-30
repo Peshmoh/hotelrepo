@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.logo-container
+{
+    height: 100px;
+    width: 100px;
+}
+.nav-bar-con
+{
+    color: #fbec52 !important;
+    
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-container
+{
+    background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&w=1000&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.title-container
+{
+    color: white;
+    font-size: 50px;
+
+}
+.sub-title-container
+{
+    font-size: 30px;
+    color: white;
+}
+
+.banner-container-two
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button-container
+{
+    
+ background-color: #FFCC00;
+ padding: 8px;
+ margin: 5px;
+ color: white;
+ border-radius: 6px;
+ border-width: 0px;   
+}
+
+.button-container-two
+{
+    
+    border-radius: 6px;
+    padding: 8px;
+    border-width: 1px; 
+    border-color: #FFCC00;
+    background: none;
+    color: #FFCC00;
+}
+.why-choose-us-container
+{
+    background-color: #fafafa;
+    margin-top: 26px;
+}
+.header-container
+{
+    padding-top: 10px;
+    font-size: 40px;
+    color: navy;
+}
+.choose-us-container
+{
+    color: grey;
+    font-size: 20px;
+}
+.food-service-card
+{
+    background-color: #fafafa;
+    border-width: 0px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #ccc;
+    width: 280px;
+    padding: 5px;
+    height: 250px;
+    text-align: center;
+    margin: 5px;
+
+}
+.freshfood-service-card
+{
+    background-color: #fafafa;
+    border-width: 0px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #ccc;
+    width: 280px;
+    height: 250px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+
+}
+.nav-bars
+{
+    margin-left: auto;
+}
+.food-service-image
+{
+    height: 100px;
+    width: 100px;
+  object-fit: cover;
+}
+.food-service-header
+{
+    font-size: 25px;
+    color: grey;
+    font-weight: bold;
+
+}
+.food-service-container
+{
+    font-size: 15px;
+    color: grey;
+    padding: 6px; 
+    overflow: auto;
+}
+.choose-us-sub-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-container
+{
+    background-color: #fafafa;
+    margin: 30px;
+}
+.noveg-container
+{
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px #ccc;
+    text-align: center;
+}
+.nv-image-container
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 26px;
+    padding: 15px;
+    margin: 10px;   
+}
+.non-veg-title
+{
+    color: #ccc;
+    padding-left: 25px;
+}
+.view-icon
+{
+    padding-left: 25px;
+    padding-bottom: 10px;
+    color: #FFCC00;
+}
+
+.view-icon:hover
+{
+    cursor: pointer;
+}
+.organic-container
+{
+    background-color: #fafafa;
+    margin: 15px;
+}
+
+.organic-containers
+{
+    height: 400px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+}
+.header-organic-container
+{
+    color: navy;
+}
+.flex-container
+{
+    padding: 25px;
+}
+
+.papra-container
+{
+    line-height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.foloow-container
+{
+    color: grey;
+    margin: 20px;
+    text-align: center;
+} 
+.last-container
+{
+    text-align: center;
+}
+    
+.foloow-container-logo
+{
+    color: #FFCC00;
+    font-size: 40px;
+    margin: 25px;
+    
+}
+.footer-container
+{
+    background-color: #040359;
+    height: 250px;
+}
+
+.logo-container-footer
+{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+.mail-container
+{
+    text-align: center;
+  padding-top: 4px;
+    color: #FBEC52;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

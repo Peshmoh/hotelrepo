@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    text-align: center;
+    padding:0px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: orange;
+
+  }
+  p {
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+  section {
+    padding: 20px;
+    border-top: 1px solid #88adc5;
+    border-bottom: 1px solid #88adc5;
+  }
+  footer {
+    color: black;
+    text-align: center;
+    padding: 0px;
+    border-top: 1px solid blue;
+  }
+  
